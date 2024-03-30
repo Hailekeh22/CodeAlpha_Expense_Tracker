@@ -6,13 +6,14 @@
     justify-content: space-between;
     width: 100%;
     padding: 1rem 2%;
-    background-color: rgb(4, 4, 99);
+    background-color: rgb(135, 30, 30);
 }
 
 .notificationicon{
     color: #fff;
     height: 20px;
     margin-right: 1rem;
+    cursor: pointer;
 }
 
 .right{
@@ -31,4 +32,5 @@
 
 .usericon{
     width: 40px;
+    cursor: pointer;
 }

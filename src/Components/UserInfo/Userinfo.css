@@ -1,7 +1,7 @@
 .userinfocontaner{
     width: 100%;
     height: auto;
-    background-color: rgb(110, 12, 12);
+    background-color: rgb(135, 30, 30);
     padding: 4rem 10rem;
 }
 
@@ -10,8 +10,143 @@
     background-color: #fff;
     height: 7rem;
     border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
 }
 
 .userinf{
     display: flex;
+    flex-direction: column;
+    margin-left: .5rem;
 }
+
+.username{
+    font-size: 2.5rem;
+}
+
+.userimg{
+    width: 85px;
+}
+
+.usersection{
+    display: flex;
+    align-items: center;
+}
+
+.btn1{
+    padding: .7rem 2.7rem;
+    border-radius: 5px;
+    font-weight: 500;
+    outline: none;
+    background:none;
+    border: 1px solid black;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.btn2{
+    padding: .7rem 2.7rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    font-weight: 500;
+    outline: none;
+    background:none;
+    border: 1px solid black;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.btn1:hover{
+    background-color:black;
+    color: #fff;
+}
+
+.btn2:hover{
+    background-color: #fff;
+    border:1px solid black;
+    color: black;
+}
+
+
+@media(max-width:1000px){
+    .userinfocontaner{
+        padding: 4rem 5rem;
+    }
+}
+
+@media(max-width:815px){
+    .userinfocontaner{
+        padding: 4rem 2rem;
+    }
+}
+
+@media(max-width:720px){
+    .userinfocontaner{
+        padding: 4rem 1rem;
+    }
+    .username{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+    .btn1 {
+        padding: .5rem 1rem;
+    }
+    .btn2 {
+        padding: .5rem 1rem;
+    }
+}
+
+@media(max-width:500px){
+    
+
+    .userdetails{
+        padding: 0 1rem;
+    }
+
+    .userimg{
+        width: 60px;
+    }
+}
+
+@media(max-width:450px){
+    .username{
+    font-size: 1rem;
+    font-weight: 500;
+}
+    .userimg{
+        width: 40px;
+    }
+
+    .btn1 {
+        padding: .3rem .5rem;
+    }
+    .btn2 {
+        padding: .3rem .5rem;
+    }
+
+    .location{
+        font-size: .6rem;
+    }
+}
+@media(max-width:360px) {
+    .usersectionright{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn1 {
+        width: 6rem;
+        border-radius: 15px;
+    }
+    .btn2 {
+        width: 6rem;
+        margin:.5rem  0;
+        border-radius: 15px;
+
+    }
+}
+

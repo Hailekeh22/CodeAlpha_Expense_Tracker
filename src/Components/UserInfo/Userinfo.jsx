@@ -6,12 +6,16 @@ function Userinfo() {
   return (
     <div className="userinfocontaner">
       <div className="userdetails">
-        <div>
-          <img src={user}></img>
+        <div className="usersection">
+          <img className="userimg" src={user}></img>
           <div className="userinf">
-            <p>John Doe</p>
-            <p>London, UK</p>
+            <p className="username">John Doe</p>
+            <p className="location">London, UK</p>
           </div>
+        </div>
+        <div className="usersectionright">
+          <button className="btn1">Total Likes</button>
+          <button className="btn2">Summery</button>
         </div>
       </div>
     </div>
