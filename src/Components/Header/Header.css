@@ -33,4 +33,5 @@
 .usericon{
     width: 40px;
     cursor: pointer;
+    border-radius: 50%;
 }
