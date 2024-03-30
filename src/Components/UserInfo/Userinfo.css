@@ -1,0 +1,17 @@
+.userinfocontaner{
+    width: 100%;
+    height: auto;
+    background-color: rgb(110, 12, 12);
+    padding: 4rem 10rem;
+}
+
+.userdetails{
+    width: 100%;
+    background-color: #fff;
+    height: 7rem;
+    border-radius: 2rem;
+}
+
+.userinf{
+    display: flex;
+}
